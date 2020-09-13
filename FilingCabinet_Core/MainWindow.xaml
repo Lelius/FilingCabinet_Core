@@ -23,7 +23,7 @@
                 <MenuItem Header="Закрыть"></MenuItem>
                 <MenuItem Header="Новая"></MenuItem>
                 <MenuItem Header="Резервная копия"></MenuItem>
-                <MenuItem Header="Выход из программы"></MenuItem>
+                <MenuItem Header="Выход из программы" Click="ClickExitProgram"></MenuItem>
             </MenuItem>
             <MenuItem Header="Карточка">
                 <MenuItem Header="Новая"></MenuItem>

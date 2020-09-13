@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,20 +15,11 @@ using System.Windows.Shapes;
 
 namespace FilingCabinet
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+    public partial class ProgramExitDialogWindow : Window
     {
-        public MainWindow()
+        public ProgramExitDialogWindow()
         {
             InitializeComponent();
-        }
-
-        public void ClickExitProgram(object sender, RoutedEventArgs e)
-        {
-            var programExitDialogWindow = new ProgramExitDialogWindow();
-            programExitDialogWindow.ShowDialog();
         }
     }
 }
