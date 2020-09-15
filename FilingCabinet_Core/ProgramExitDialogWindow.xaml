@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FilingCabinet"
         mc:Ignorable="d"
-        Title="Выход" Height="120" Width="200">
+        Title="Выход" Height="100" Width="200"
+        WindowStyle="None">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -19,7 +20,9 @@
         <TextBlock x:Name="TextBlockProgramExitDialogWindow" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" TextAlignment="Center" VerticalAlignment="Center">
             Выход из программы?
         </TextBlock>
-        <Button x:Name="ButtonProgramExitDialogWindowYes" Grid.Column="0" Grid.Row="1" Content="Да" Margin="20, 30"/>
-        <Button x:Name="ButtonProgramExitDialogWindowNo" Grid.Column="1" Grid.Row="1" Content="Нет" Margin="20, 30"/>
+        <Button x:Name="ButtonProgramExitDialogWindowYes" Grid.Column="0" Grid.Row="1" Content="Да" Margin="20, 30"
+            Click="ClickButtonProgramExitDialogWindowYes"/>
+        <Button x:Name="ButtonProgramExitDialogWindowNo" Grid.Column="1" Grid.Row="1" Content="Нет" Margin="20, 30"
+            Click="ClickButtonProgramExitDialogWindowNo"/>
     </Grid>
 </Window>        

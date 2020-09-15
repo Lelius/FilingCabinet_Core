@@ -21,5 +21,15 @@ namespace FilingCabinet
         {
             InitializeComponent();
         }
+
+        public void ClickButtonProgramExitDialogWindowYes(object sender, RoutedEventArgs eventArgs)
+        {
+            Application.Current.Shutdown();
+        }
+
+        public void ClickButtonProgramExitDialogWindowNo(object sender, RoutedEventArgs eventArgs)
+        {
+            this.Close();
+        }
     }
 }
