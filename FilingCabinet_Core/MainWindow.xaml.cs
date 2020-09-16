@@ -28,6 +28,7 @@ namespace FilingCabinet
         public void ClickExitProgram(object sender, RoutedEventArgs e)
         {
             var programExitDialogWindow = new ProgramExitDialogWindow();
+            programExitDialogWindow.Owner = this;
             programExitDialogWindow.ShowDialog();
         }
     }
